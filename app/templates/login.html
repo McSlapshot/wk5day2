@@ -2,7 +2,9 @@
 {% block content %}
 
 <h1>Pokedex</h1>
-
+{% if pokemon_dict %}
+<h3>{{ pokemon_dict[name] }}</h3>
+{% endif %}
 <a href="/">Go Home</a>
 
 {% endblock %}
