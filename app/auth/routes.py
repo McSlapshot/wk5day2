@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, request, redirect, url_for
-from app.auth.forms import UserCreationForm
+from auth.forms import UserCreationForm
 from app.models  import User
 import requests, json
 
