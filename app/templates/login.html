@@ -3,6 +3,11 @@
 
 <h1>Pokedex</h1>
 
+<!-- Build this into a bootstrap card or something similar!  We're going to continue building on this. -->
+<!-- It doesn't have to be here I just wanted to give a real basic idea -->
+{% if pokemon_dict %}
+<h3>{{ pokemon_dict[name] }}</h3>
+{% endif %}
 <a href="/">Go Home</a>
 
 {% endblock %}
